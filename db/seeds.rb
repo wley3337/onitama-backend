@@ -79,50 +79,50 @@ boar = Card.create(title: "Boar", quote: "Watch for opportunity, for it will pre
 boar.moves << move12
 boar.moves << move8
 boar.moves << move13
-
+#from here to dragon is the new moves
 crane = Card.create(title: "Crane", quote: "Make no unnecessary movement, conserving your strength until the time is right to strike. The true Art is a symphony of graceful strikes.")
+crane.moves << move13
+crane.moves << move7
 crane.moves << move16
-crane.moves << move8
-crane.moves << move18
 
 goose = Card.create(title: "Goose", quote: "Your robes are your cloak of feathers; spread your wings to hide your intentions. Even then, as your opponent seeks to determine your motive, you shall strike.")
-goose.moves << move12
-goose.moves << move7
-goose.moves << move13
-goose.moves << move18
+goose.moves << move8
+goose.moves << move9
+goose.moves << move17
+goose.moves << move16
 
 rooster = Card.create(title: "Rooster", quote: "Do not allow your enemy to rest, but focus your Art to delive quick, sharp strikes whenever he lags.")
-rooster.moves << move12
-rooster.moves << move16
-rooster.moves << move13
-rooster.moves << move9
+rooster.moves << move8
+rooster.moves << move7
+rooster.moves << move17
+rooster.moves << move18
 
 
 rabbit = Card.create(title: "Rabbit", quote: "Be near to your opponent, blinding him with your speed. The Art of the Rabbit is the Art of speed.")
-rabbit.moves << move16
-rabbit.moves << move9
-rabbit.moves << move14
+rabbit.moves << move7
+rabbit.moves << move18
+rabbit.moves << move22
 
 elephant = Card.create(title: "Elephant", quote: "Only the strong may pursue your Art. This is why it is the true Art, the Art that cannot be stopped.")
-elephant.moves << move12
-elephant.moves << move7
-elephant.moves << move13
+elephant.moves << move8
 elephant.moves << move9
+elephant.moves << move17
+elephant.moves << move18
 
 crab = Card.create(title: "Crab", quote: "Move with your opponent's movements, as if you are the never-ceasing tide. When the time is right, he will fall prey to your attack.")
-crab.moves << move11
-crab.moves << move8
-crab.moves << move14
+crab.moves << move3
+crab.moves << move13
+crab.moves << move22
 
 dragon = Card.create(title: "Dragon", quote: "Be swift as the thunder that peals before you have a chance to cover your ears, fast as the lightining that flashes before you can blink your eyes.")
+dragon.moves << move4
+dragon.moves << move7
 dragon.moves << move16
-dragon.moves << move6
-dragon.moves << move18
-dragon.moves << move10
+dragon.moves << move23
 
 cobra = Card.create(title: "Cobra", quote: "Attack violently when your opponents are not expecting it - show leisure in the beggining, then suddenly attack vigorously.")
-cobra.moves << move12
-cobra.moves << move9
+cobra.moves << move8
+cobra.moves << move16
 cobra.moves << move18
 # ========  P A W N S  ===========
 
