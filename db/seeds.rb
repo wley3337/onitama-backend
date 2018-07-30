@@ -41,33 +41,33 @@ p3 = Player.create(name: "holder")
 #---------Cards
 
 tiger = Card.create(title: "Tiger", quote: "The power of your Art projects instelf like a shadow. Sense your opponent's fear, and pounce with certainty and strength.")
-tiger.moves << move17
-tiger.moves << move3
+tiger.moves << move12
+tiger.moves << mov14
 
 ox = Card.create(title: "Ox", quote: "Pour your strength into the forms of your Art- in its punches, its kicks, in the steady advance of your aggression.")
-ox.moves << move8
-ox.moves << move17
+ox.moves << move12
 ox.moves << move13
+ox.moves << move17
 
 mantis = Card.create(title: "Mantis", quote: "Your opponent sees, but does not understand. Distract the watchful, misguide the wary. This is the Art of the Mantis, the Art of the deceptive strike.")
-mantis.moves << move7
 mantis.moves << move9
-mantis.moves << move17
+mantis.moves << move12
+mantis.moves << move18
 
 eel = Card.create(title: "Eel", quote: "If you opponent strikes with fire, counter with water, becoming completely fluid and freeflowing.")
 eel.moves << move7
-eel.moves << move13
-eel.moves << move16
+eel.moves << move9
+eel.moves << move17
 
 frog = Card.create(title: "Frog", quote: "Do not fail to learn from the pure voice of an ever-flowing mountian stream spalshing over the rocks. Emulate its flow, mimic its power.")
-frog.moves << move7
-frog.moves << move11
-frog.moves << move18
+frog.moves << move3
+frog.moves << move9
+frog.moves << move16
 
 horse = Card.create(title: "Horse", quote: "Lose yourself in the rythm of your Art. At times be swift and decisive, at other times measured and taunting.")
-horse.moves << move12
 horse.moves << move8
-horse.moves << move17
+horse.moves << move12
+horse.moves << move13
 
 monkey = Card.create(title: "Monkey", quote: "Without deception you cannot carry out startegy, without strategy you connot control the opponent.")
 monkey.moves << move7
@@ -76,9 +76,9 @@ monkey.moves << move18
 monkey.moves << move9
 
 boar = Card.create(title: "Boar", quote: "Watch for opportunity, for it will present itself. Then strike, focussing all your might into a single rush, trampling your opponent's Art under your own.")
-boar.moves << move12
 boar.moves << move8
 boar.moves << move13
+boar.moves << move17
 
 crane = Card.create(title: "Crane", quote: "Make no unnecessary movement, conserving your strength until the time is right to strike. The true Art is a symphony of graceful strikes.")
 crane.moves << move16
