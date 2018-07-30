@@ -34,9 +34,9 @@ move24 = Move.create(x: -2,y: -2)
 
 # ========  P L A Y E R S  ===========
 
-p1 = Player.create()
-p2 = Player.create()
-p3 = Player.create()
+p1 = Player.create(name: "Red Team")
+p2 = Player.create(name: "Blue Team")
+p3 = Player.create(name: "holder")
 
 #---------Cards
 
