@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 2018_07_30_155942) do
 
   create_table "pieces", force: :cascade do |t|
     t.integer "player_id"
-    t.string "type"
+    t.string "rank"
     t.boolean "on_board"
     t.string "color"
     t.integer "x"
@@ -49,6 +49,8 @@ ActiveRecord::Schema.define(version: 2018_07_30_155942) do
   end
 
   create_table "players", force: :cascade do |t|
+    t.string "name"
+    t.boolean "active_player", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
