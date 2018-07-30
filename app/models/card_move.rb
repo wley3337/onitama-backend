@@ -1,0 +1,2 @@
+class CardMove < ApplicationRecord
+end

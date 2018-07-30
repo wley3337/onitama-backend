@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  player_id: 1
+  type: 
+  on_board: false
+  color: MyString
+  x: 1
+  'y': 1
+
+two:
+  player_id: 1
+  type: 
+  on_board: false
+  color: MyString
+  x: 1
+  'y': 1
