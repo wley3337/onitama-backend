@@ -42,7 +42,7 @@ p3 = Player.create(name: "holder")
 
 tiger = Card.create(title: "Tiger", quote: "The power of your Art projects instelf like a shadow. Sense your opponent's fear, and pounce with certainty and strength.")
 tiger.moves << move12
-tiger.moves << mov14
+tiger.moves << move14
 
 ox = Card.create(title: "Ox", quote: "Pour your strength into the forms of your Art- in its punches, its kicks, in the steady advance of your aggression.")
 ox.moves << move12
