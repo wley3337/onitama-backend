@@ -10,21 +10,35 @@ class Player < ApplicationRecord
     player2 = Player.find(2)
     player2.active_player = false
     player2.save
-    i = 0
-    j = 0
-    player1_pieces = player1.pieces
 
-    player1_pieces.each do |piece|
-     
-      piece.update(x:0, y:i, on_board: true)
-      i += 1
-      
+    player1.pieces.each do |piece|
+      case piece.id
+      when 1 
+        piece.update(x:0, y:0, on_board: true)
+      when 2
+        piece.update(x:0, y:1, on_board: true)
+      when 3
+        piece.update(x:0, y:2, on_board: true)
+      when 4
+        piece.update(x:0, y:3, on_board: true)
+      when 5
+        piece.update(x:0, y:4, on_board: true)
+      end 
     end 
 
     player2.pieces.each do |piece|
-      piece.update(x:4,y:j,on_board:true)
-      j += 1
-      
+      case piece.id
+      when 6 
+        piece.update(x:4, y:0, on_board: true)
+      when 7
+        piece.update(x:4, y:1, on_board: true)
+      when 8
+        piece.update(x:4, y:2, on_board: true)
+      when 9
+        piece.update(x:4, y:3, on_board: true)
+      when 10
+        piece.update(x:4, y:4, on_board: true)
+      end  
     end 
   end 
 
