@@ -15,19 +15,16 @@ class Player < ApplicationRecord
     player1_pieces = player1.pieces
 
     player1_pieces.each do |piece|
-      piece.on_board = true,
-      piece.x = 0,
-      piece.y = i,
-      i += 1,
-      piece.save
+     
+      piece.update(x:0, y:i, on_board: true)
+      i += 1
+      
     end 
 
     player2.pieces.each do |piece|
-      piece.on_board = true,
-      piece.x = 4,
-      piece.y = j,
-      j += 1,
-      piece.save
+      piece.update(x:4,y:j,on_board:true)
+      j += 1
+      
     end 
   end 
 
