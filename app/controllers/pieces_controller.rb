@@ -10,7 +10,7 @@ class PiecesController < ApplicationController
 
   def update
     piece = Piece.find(params[:id])
-    piece.update(params.require[:piece].permit[:x, :y, :on_board])
+    piece.update(params.require(:piece).permit(:x, :y, :on_board))
     render json: piece
   end
 
