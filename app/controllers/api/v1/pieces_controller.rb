@@ -1,4 +1,4 @@
-class PiecesController < ApplicationController
+class Api::V1::PiecesController < ApplicationController
 
   def index
     render json: Piece.all
